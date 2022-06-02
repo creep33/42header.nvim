@@ -30,7 +30,7 @@ vim.api.nvim_set_keymap('n', '<leader>h', ': Ftheader', {noremap = true})
 For auto header update `Updated : ...` you should add this to your config
 
 ```
-vim.cmd("autocmd BufWritePre * call :Ftupdate")
+vim.cmd("autocmd BufWritePre *.c,*.cpp Ftupdate")
 ```
 
 For manual update:
