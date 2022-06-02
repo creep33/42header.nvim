@@ -17,8 +17,8 @@ use 'abellaismail7/42header.nvim'
 I assume that you have two env variables:
 
 ```
-$42USER="bella" # For your username
-$42MAIL="bella@example.com" # For your mail
+$USER42="bella" # For your username
+$MAIL42="bella@example.com" # For your mail
 ```
 
 # Usage
