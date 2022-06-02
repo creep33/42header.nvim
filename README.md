@@ -11,7 +11,7 @@
 Packer is recommended:
 
 ```
-use 'abellaismail7/42header.nvim'
+use 'creep33/42header.nvim'
 ```
 
 I assume that you have two env variables:
