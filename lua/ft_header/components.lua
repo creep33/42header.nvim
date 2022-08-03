@@ -27,7 +27,7 @@ function M.ft_filename()
 end
 
 function M.ft_user(user)
-    util.ft_set_text(5, config.margin, "By: " .. user.name .. " " .. user.mail);
+    util.ft_set_text(5, config.margin, "By: " .. user.name .. " <" .. user.mail .. ">");
 end
 
 function M.ft_date(login)
